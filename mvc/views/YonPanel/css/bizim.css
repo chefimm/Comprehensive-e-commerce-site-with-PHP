@@ -1,0 +1,368 @@
+ .bg-gradient-mvc{background-color:#2e0549;background-image:-webkit-gradient(linear,left top,left bottom,color-stop(10%,#2e0549),to(#582975));background-image:linear-gradient(180deg,#2e0549 10%,#582975 100%);background-size:cover}
+ 
+  .bg-gradient-gri{background-color:#e3e5e5;background-image:-webkit-gradient(linear,left top,left bottom,color-stop(10%,#e3e5e5),to(#e2eaea));background-image:linear-gradient(180deg,#e3e5e5 10%,#e2eaea 100%);background-size:cover}
+  
+
+  
+  .kalin {
+	 font-weight:600;
+	 font-size:18px;
+ }
+  .kalinyap {
+	 font-weight:800;
+	 font-size:13px;
+
+ }
+ .arkaplan {
+	 background-color:#D9D9D9;
+	 border-radius:10px;
+	 border:1px solid  #CCC;
+	 font-size:13px;
+	 overflow:hidden;
+ }
+
+ 
+
+ 
+ .basliktext {
+	 color:#582975;
+
+	 
+ }
+ .basliktext2 {
+	 color:#fff;
+
+	 
+ }
+ .geneltext {
+	 color:#fff;
+	 padding-top:10px;
+	 font-weight:700;
+	 	 font-size:13px;
+	
+
+	 
+ }
+ 
+ .spantext {
+	 color:#bd6dc7;
+	 padding-top:10px;
+	 font-weight:700;
+	 	 font-size:13px;
+	 
+ }
+ 
+  .geneltext2 {
+	 color:#582975;
+	 padding-top:10px;
+	 font-weight:700;
+	 	 font-size:13px;
+	
+
+	 
+ }
+ 
+
+ 
+ .btn-mvc{color:#fff;background-color:#582975;border-color:#2e0549}.btn-mvc:hover{color:#fff;background-color:#2e0549;border-color:#582975}.btn-mvc.focus,.btn-mvc:focus{-webkit-box-shadow:0 0 0 .2rem rgba(62,208,156,.5);box-shadow:0 0 0 .2rem rgba(62,208,156,.5)}.btn-mvc.disabled,.btn-mvc:disabled{color:#fff;background-color:#2e0549;border-color:#2e0549}.btn-mvc:not(:disabled):not(.disabled).active,.btn-mvc:not(:disabled):not(.disabled):active,.show>.btn-mvc.dropdown-toggle{color:#fff;background-color:#582975;border-color:#2e0549}.btn-mvc:not(:disabled):not(.disabled).active:focus,.btn-mvc:not(:disabled):not(.disabled):active:focus,.show>.btn-mvc.dropdown-toggle:focus{-webkit-box-shadow:0 0 0 .2rem rgba(62,208,156,.5);box-shadow:0 0 0 .2rem rgba(62,208,156,.5)}
+ 
+ 
+    .bg-gradient-beyazimsi{background-color:#ffffff;background-image:-webkit-gradient(linear,left top,left bottom,color-stop(10%,#ffffff),to(#e4e5e5));background-image:linear-gradient(180deg,#ffffff 10%,#e4e5e5 100%);background-size:cover;
+	border:1px solid #582975;
+	border-radius:5px;
+	overflow:hidden;
+	}
+	
+	.formeleman {
+		font-weight:700;
+		padding:10px;
+		border-bottom:1px solid #CACACA;
+		
+	}
+	.nocizgi {
+		border:none;
+		
+	}
+	
+	.kategorieleman {
+		border:1px solid #A3A3A3;
+		border-top:0;
+		color:#383838;
+		
+	}
+	.kategorieleman2 {
+		border:1px solid #A3A3A3;		
+		color:#383838;
+		
+	}
+	.h6Eleman {
+		font-weight:700;
+		
+	}
+	.yescizgi {
+		border-right:1px solid #A3A3A3;
+		
+	}
+	
+	 .Kategoriarkaplan {
+	 background-color:#D9D9D9;
+	overflow:hidden;
+ }
+ 
+ .eklemebuton:link, .eklemebuton:visited {
+	 font-size:28px;
+	 text-decoration:none;
+	 color:#8ae64d;
+	 
+
+	 
+ }
+ 
+ .eklemebuton:hover {
+
+	 color:#62c81e;
+
+	 
+ }
+ 
+	 .ajaxolumlubuton {
+	 font-size:17px;
+	 text-decoration:none;
+	 color:#65b032;
+
+	 
+ } 
+ 
+	
+	 .guncelbuton:link, .guncelbuton:visited {
+	 font-size:20px;
+	 text-decoration:none;
+	 color:#65b032;
+
+	 
+ }
+ 
+ .guncelbuton:hover {
+
+	 color:#62c81e;
+
+	 
+ }
+ 
+ 
+ 	 .ajaxolumsuzbuton{
+	 font-size:25px;
+	 text-decoration:none;
+	 color:#d62259;
+
+	 
+ } 
+ 
+  	 .alertSilme {
+	 font-size:20px;
+	 text-decoration:none;
+	 color:#d62259;
+
+	 
+ }
+ 
+ 	 .silbuton:link, .silbuton:visited {
+	 font-size:20px;
+	 text-decoration:none;
+	 color:#d62259;
+
+	 
+ }
+ 
+ .silbuton:hover {
+
+	 color:#f44c7f;
+
+	 
+ }
+ 
+ .uruneklemeElemanlar{
+		font-weight:700;
+		padding:10px;
+		border-bottom:1px solid #CACACA;
+		border-right:1px solid #CACACA;
+		color:#582975;
+	
+ }
+  .uruneklemeElemanlarDiger{
+		font-weight:700;
+		padding:10px;
+		border-bottom:1px solid #CACACA;
+		color:#582975;
+ }
+ 
+   .bloklararasi{
+			border-right:1px solid #CACACA;
+
+ }
+   .uruneklemeBtn{
+			border-top:1px solid #CACACA;
+			padding:10px;
+
+ }
+ 
+ 
+ 	 .adresbuton:link, .adresbuton:visited {
+	 font-size:20px;
+	 text-decoration:none;
+	 color:#313131;
+
+	 
+ }
+ 
+ .adresbuton:hover {
+
+	 color:#5E5E5E;
+
+	 
+ }
+ 
+ .mailcerceve {
+		border:1px solid #CACACA; 
+		background-color:#E6E6E6;
+		color:#737373;
+		border-radius:5px;
+		
+	
+ }
+ 
+ 
+
+  .switch {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 160px;
+    height: 50px;
+    text-align: center;
+    margin: -30px 0 0 -75px;
+    background: #00bc9c;
+    transition: all 0.2s ease;
+    border-radius: 25px;
+	 font-weight: 800;
+  }
+  .switch span {
+    position: absolute;
+    width: 20px;
+    height: 4px;
+    top: 50%;
+    left: 50%;
+    margin: -2px 0px 0px -4px;
+    background: #fff;
+    display: block;
+    transform: rotate(-45deg);
+    transition: all 0.2s ease;
+	 font-weight: 800;
+  }
+  .switch span:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 4px;
+    height: 12px;
+    margin-top: -8px;
+    background: #fff;
+    transition: all 0.2s ease;
+  }
+
+  .switch label {
+    cursor: pointer;
+    color: rgba(0,0,0,0.2);
+    width: 70px;
+    line-height: 50px;
+    transition: all 0.2s ease;
+  }
+  label[for=yes] {
+    position: absolute;
+    left: 0px;
+    height: 20px;
+  }
+  label[for=no] {
+    position: absolute;
+    right: 0px;
+  }
+  #no:checked ~ .switch {
+    background: #eb4f37;
+  }
+  #no:checked ~ .switch span {
+    background: #fff;
+    margin-left: -8px;
+  }
+  #no:checked ~ .switch span:after {
+    background: #fff;
+    height: 20px;
+    margin-top: -8px;
+    margin-left: 8px;
+  }
+  #yes:checked ~ .switch label[for=yes] {
+    color: #fff;
+  }
+  #no:checked ~ .switch label[for=no] {
+    color: #fff;
+  }
+  
+    /* SİPARİŞ DETAYLI ARAMA KODLARI */
+   .arama-btn-mvc{color:#fff;background-color:#582975;border-color:#2e0549; height:60px; }.arama-btn-mvc:hover{color:#fff;background-color:#2e0549;border-color:#582975}.arama-btn-mvc.focus,.arama-btn-mvc:focus{-webkit-box-shadow:0 0 0 .2rem rgba(62,208,156,.5);box-shadow:0 0 0 .2rem rgba(62,208,156,.5)}.arama-btn-mvc.disabled,.arama-btn-mvc:disabled{color:#fff;background-color:#2e0549;border-color:#2e0549}.arama-btn-mvc:not(:disabled):not(.disabled).active,.arama-btn-mvc:not(:disabled):not(.disabled):active,.show>.arama-btn-mvc.dropdown-toggle{color:#fff;background-color:#582975;border-color:#2e0549}.arama-btn-mvc:not(:disabled):not(.disabled).active:focus,.arama-btn-mvc:not(:disabled):not(.disabled):active:focus,.show>.arama-btn-mvc.dropdown-toggle:focus{-webkit-box-shadow:0 0 0 .2rem rgba(62,208,156,.5);box-shadow:0 0 0 .2rem rgba(62,208,156,.5)}
+   
+     .arama-bg-gradient{
+	 background: rgb(215,215,215);
+background: linear-gradient(90deg, rgba(215,215,215,1) 0%, rgba(218,223,222,1) 47%, rgba(215,215,215,1) 100%);
+	border:1px solid  #D5D1D1;
+	border-radius:5px;
+	overflow:hidden;
+	}
+	.arama-bg-gradient .eleman1{
+
+	border-right:1px solid  #D5D1D1;
+	border-bottom:1px solid  #D5D1D1;
+	color: #582975;
+	font-weight: 800;
+
+	}
+	.arama-bg-gradient .eleman2{
+
+	border-right:1px solid  #D5D1D1;
+	border-bottom:1px solid  #D5D1D1;
+
+	}
+	.arama-bg-gradient  .noaltcizgi {
+	border-bottom:none;
+	
+	}
+	
+	
+	
+	.navigasyon:link, .navigasyon:visited {
+	
+	 text-decoration:none;
+	 color:#582975;
+	 
+
+	 
+ }
+ 
+ .navigasyon:hover {
+ text-decoration:none;
+
+	 color:#803BAB;
+
+	 
+ }
+ .navigasyonunanasi {
+ border-bottom: 1px solid #D5D1D1;
+ 
+ 
+ }
+ .baslikana {
+background: rgb(215,215,215);
+background: linear-gradient(90deg, rgba(215,215,215,1) 0%, rgba(218,223,222,1) 47%, rgba(215,215,215,1) 100%);
+ 
+ 
+ }
+
+ 

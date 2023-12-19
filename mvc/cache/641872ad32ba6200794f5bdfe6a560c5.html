@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link href="http://localhost/mvc/views/design/css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="http://localhost/mvc/views/design/js/jquery.min.js"></script>
+<script src="http://localhost/mvc/views/design/js/bizim.js"></script>
+
+<!-- Custom Theme files -->
+<link href="http://localhost/mvc/views/design/css/style.php" rel="stylesheet" type="text/css" media="all" />
+<link href="http://localhost/mvc/views/design/css/component.css" rel='stylesheet' type='text/css' />
+
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script type="text/javascript">
+
+function reloadEt() {
+	
+	img =document.getElementById("capt");
+	
+	var deger=$('#capt').attr('src');
+	var parcala=deger.split('&');
+	
+	img.src= parcala[0] +"&" + Math.random();
+	
+
+}
+
+</script>
+
+
+
+
+<title>MVC E-TİCARET UYGULAMASI</title>
+
+
+
+  <meta name="description" content="Olcay kalyoncuoğlu- Udemy MVC E-ticaret Eğitimi " />
+  <meta name="keywords" content="eğitim, eticaret,anahtar,kelimeler,buraya,virgüller,koyularak,yazilacak " />
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--webfont-->
+<!-- for bootstrap working -->
+	<script type="text/javascript" src="http://localhost/mvc/views/design/js/bootstrap-3.1.1.min.js"></script>
+<!-- //for bootstrap working -->
+<!-- cart -->
+	<script src="http://localhost/mvc/views/design/js/simpleCart.min.js"> </script>
+<!-- cart -->
+<link rel="stylesheet" href="http://localhost/mvc/views/design/css/flexslider.css" type="text/css" media="screen" />
+
+</head>
+<body>
+	<!-- header-section-starts -->
+	<div class="header">
+		<div class="header-top-strip">
+			<div class="container">
+				<div class="header-top-left">
+					<ul>
+                    
+                                
+            
+            <li><a href="http://localhost/mvc/uye/giris"><span class="glyphicon glyphicon-user"> </span>Giriş </a></li>
+						<li><a href="http://localhost/mvc/uye/hesapOlustur"><span class="glyphicon glyphicon-lock"> </span>Hesap Oluştur</a></li>	
+			
+            
+			
+			                    
+								
+					</ul>
+				</div>
+				<div class="header-right">
+						<div class="cart box_1" id="SepetDurum">
+                        
+                        
+		
+        
+							<div class="clearfix"> </div>
+						</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- header-section-ends -->
+			<div class="banner-top">
+		<div class="container">
+				<nav class="navbar navbar-default" role="navigation">
+	    <div class="navbar-header">
+	        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+	        </button>
+           
+				<div class="logo">
+					<h1><a href="http://localhost/mvc"><span>E</span> -Ticaret</a></h1>
+				</div>
+	    </div>
+	    <!--/.navbar-header-->
+	
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	        <ul class="nav navbar-nav">
+       
+			<li><a href="http://localhost/mvc">Anasayfa</a></li>
+            
+  <li class="dropdown">
+		            <a href="#" class="dropdown-toggle" data-toggle="dropdown">ERKEK <b class="caret"></b></a>
+		            <ul class="dropdown-menu multi-column columns-3">
+			            <div class="row"><div class="col-sm-4">
+					            <ul class="multi-column-dropdown">
+									<h6>Dış Giyim</h6><li><a href="http://localhost/mvc/urunler/kategori/1/tisort">Tişört</a></li><li><a href="http://localhost/mvc/urunler/kategori/2/pantolon">Pantolon</a></li><li><a href="http://localhost/mvc/urunler/kategori/3/ceket">Ceket</a></li><li><a href="http://localhost/mvc/urunler/kategori/4/gomlek">Gömlek</a></li></ul> </div><div class="col-sm-4">
+					            <ul class="multi-column-dropdown">
+									<h6>İç Giyim</h6><li><a href="http://localhost/mvc/urunler/kategori/5/atlet">Atlet</a></li><li><a href="http://localhost/mvc/urunler/kategori/6/boxer">Boxer</a></li></ul> </div><div class="col-sm-4">
+					            <ul class="multi-column-dropdown">
+									<h6>Ayakkabı</h6><li><a href="http://localhost/mvc/urunler/kategori/10/klasik">Klasik</a></li><li><a href="http://localhost/mvc/urunler/kategori/9/spor">Spor</a></li></ul> </div><div class="clearfix"></div>
+			            </div>
+		            </ul>
+		        </li> <li class="dropdown">
+		            <a href="#" class="dropdown-toggle" data-toggle="dropdown">KADIN <b class="caret"></b></a>
+		            <ul class="dropdown-menu multi-column columns-3">
+			            <div class="row"><div class="col-sm-4">
+					            <ul class="multi-column-dropdown">
+									<h6>İç Giyim</h6><li><a href="http://localhost/mvc/urunler/kategori/11/camasir">Çamaşır</a></li><li><a href="http://localhost/mvc/urunler/kategori/12/iclik">İçlik</a></li></ul> </div><div class="col-sm-4">
+					            <ul class="multi-column-dropdown">
+									<h6>Çanta</h6><li><a href="http://localhost/mvc/urunler/kategori/13/deri">Deri</a></li><li><a href="http://localhost/mvc/urunler/kategori/14/kumas">Kumaş</a></li></ul> </div><div class="col-sm-4">
+					            <ul class="multi-column-dropdown">
+									<h6>Saat</h6><li><a href="http://localhost/mvc/urunler/kategori/15/spor">Spor</a></li><li><a href="http://localhost/mvc/urunler/kategori/16/klasik">Klasik</a></li><li><a href="http://localhost/mvc/urunler/kategori/17/deri-kordon">Deri Kordon</a></li></ul> </div><div class="clearfix"></div>
+			            </div>
+		            </ul>
+		        </li> <li class="dropdown">
+		            <a href="#" class="dropdown-toggle" data-toggle="dropdown">ÇOCUK <b class="caret"></b></a>
+		            <ul class="dropdown-menu multi-column columns-3">
+			            <div class="row"><div class="col-sm-4">
+					            <ul class="multi-column-dropdown">
+									<h6>Ayakkabı</h6><li><a href="http://localhost/mvc/urunler/kategori/18/isikli">Işıklı</a></li><li><a href="http://localhost/mvc/urunler/kategori/19/spor">Spor</a></li><li><a href="http://localhost/mvc/urunler/kategori/20/ilk-adim">İlk Adım</a></li></ul> </div><div class="col-sm-4">
+					            <ul class="multi-column-dropdown">
+									<h6>Oyuncak</h6><li><a href="http://localhost/mvc/urunler/kategori/21/araba">Araba</a></li><li><a href="http://localhost/mvc/urunler/kategori/22/bebek">Bebek</a></li><li><a href="http://localhost/mvc/urunler/kategori/23/tren">Tren</a></li></ul> </div><div class="col-sm-4">
+					            <ul class="multi-column-dropdown">
+									<h6>Giyim</h6><li><a href="http://localhost/mvc/urunler/kategori/24/zibin">Zıbın</a></li><li><a href="http://localhost/mvc/urunler/kategori/25/tisort">Tişört</a></li><li><a href="http://localhost/mvc/urunler/kategori/26/pantolonn">PantolonN</a></li></ul> </div><div class="clearfix"></div>
+			            </div>
+		            </ul>
+		        </li>		       
+               
+               
+               
+               
+               
+					<li><a href="http://localhost/mvc/sayfalar/iletisim">İletişim</a></li>
+	        </ul>
+	    </div>
+	    <!--/.navbar-collapse-->
+	</nav>
+	<!--/.navbar-->
+</div>
+	</div>
+		</div>
+
+  <div class="container">
+	   <div class="products-page">
+			<div class="products">
+				<div class="product-listy">
+					<h2>Stoğu Azalanlar</h2>
+					<ul class="product-list">
+                    						
+						
+					</ul>
+				</div>
+		
+             	
+           	
+				
+
+			</div>
+			<div class="new-product">
+				<div class="col-md-5 zoom-grid">
+					<div class="flexslider">
+						<ul class="slides">
+                        
+                        
+							<li data-thumb="http://localhost/mvc/views/design/images/127.png">
+								<div class="thumb-image">                               
+                                
+                              
+                                
+                                <img src="http://localhost/mvc/views/design/images/127.png" data-imagezoom="true" class="img-responsive" alt="Yeni Doğan" /> </div>
+							</li>
+                            
+							<li data-thumb="http://localhost/mvc/views/design/images/128.png">
+                            
+								<div class="thumb-image"> <img src="http://localhost/mvc/views/design/images/128.png" data-imagezoom="true" class="img-responsive" alt="Yeni Doğan" /> </div>
+							</li>
+                            
+                            
+							<li data-thumb="http://localhost/mvc/views/design/images/129.png">
+							<div class="thumb-image"> <img src="http://localhost/mvc/views/design/images/129.png" data-imagezoom="true" class="img-responsive" alt="Yeni Doğan" /> </div>
+							</li> 
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-7 dress-info">
+					<div class="dress-name">
+                    
+                            
+            
+						<h3> Yeni Doğan</h3>
+	<span> 140.00</span>
+						<div class="clearfix"></div>
+						<p><b>ÜRÜN HAKKINDA AÇIKLAMA</b> ÜRÜN HAKKINDA AÇIKLAMA=Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+					</div>
+					
+					<div class="span span1">
+						<p class="left">KUMAŞ</p>
+						<p class="right">Keten</p>
+						<div class="clearfix"></div>
+					</div><div class="span span1">
+						<p class="left">ÜRETİM YERİ</p>
+						<p class="right">Japonya</p>
+						<div class="clearfix"></div>
+					</div><div class="span span1">
+						<p class="left">RENK</p>
+						<p class="right">Sarı</p>
+						<div class="clearfix"></div>
+					</div>					
+					
+					<div class="purchase">
+                    
+                    
+                    	<div class="row" id="Mevcut"> 
+                       
+                        <div class="col-md-6" id="sonuc"></div>
+                        
+                      <div class="col-md-3 text-right">
+                      
+                      <form id="SepeteForm">
+                      
+               <input type="number" min="1" max="10" value="1" name="adet" class="form-control" />  
+                      
+                      </div>  
+					                     
+                        
+                        
+                      <div class="col-md-3">
+             <input type="hidden" name="id" value="111"  />  
+                      <input type="button" class="btn hizala_3" value="Sepete Ekle" id="SepetBtn"></div>   
+                       </form>
+                       
+                       
+                        
+                        
+                        </div>
+						
+												
+						
+						
+				                    
+                    
+                    
+                    
+                    
+                    
+						
+						
+						<div class="clearfix"></div>
+					</div>
+				<script src="http://localhost/mvc/views/design/js/imagezoom.js"></script>
+					<!-- FlexSlider -->
+					<script defer src="http://localhost/mvc/views/design/js/jquery.flexslider.js"></script>
+					<script>
+						// Can also be used with $(document).ready()
+						$(window).load(function() {
+						  $('.flexslider').flexslider({
+							animation: "slide",
+							controlNav: "thumbnails"
+						  });
+						});
+					</script>
+				</div>
+				<div class="clearfix"></div>
+                
+					<div class="reviews-tabs">
+     
+             <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+			<ul id="myTab" class="nav nav-tabs" role="tablist">
+			  <li role="presentation" class="active"><a href="#bilgi" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Daha fazla bilgi</a></li>
+			  <li role="presentation" class=""><a href="#ozellik" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="false">Özellikler</a></li>
+			  
+              
+    			  <li role="presentation" class=""><a href="#yorum" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="false">Yorumlar - 0 </a></li>
+              
+              
+			</ul>
+            
+            
+			<div id="myTabContent" class="tab-content">
+			  <div role="tabpanel" class="tab-pane fade active in" id="bilgi" aria-labelledby="home-tab">
+				<p>Pembe Tişört için ekstra bilgi</p>
+			  </div>
+			  <div role="tabpanel" class="tab-pane fade " id="ozellik" aria-labelledby="profile-tab">
+				<p><br />
+<font size='1'><table class='xdebug-error xe-notice' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Notice: Undefined index: ozellik in C:\wamp64\www\mvc\views\sayfalar\urundetay.php on line <i>196</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0002</td><td bgcolor='#eeeeec' align='right'>366648</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\wamp64\www\mvc\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0003</td><td bgcolor='#eeeeec' align='right'>373200</td><td bgcolor='#eeeeec'>Route->__construct(  )</td><td title='C:\wamp64\www\mvc\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>22</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0076</td><td bgcolor='#eeeeec' align='right'>485784</td><td bgcolor='#eeeeec'>urunler->detay( <span>$id = </span><span>&#39;111&#39;</span>, <span>$ad = </span><span>&#39;yeni-dogan&#39;</span> )</td><td title='C:\wamp64\www\mvc\Route.php' bgcolor='#eeeeec'>...\Route.php<b>:</b>41</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0115</td><td bgcolor='#eeeeec' align='right'>497680</td><td bgcolor='#eeeeec'>view->goster( <span>$dosyaad = </span><span>&#39;sayfalar/urundetay&#39;</span>, <span>$veri = </span><span>[&#39;data1&#39; =&gt; [0 =&gt; [...]], &#39;data2&#39; =&gt; [], &#39;data3&#39; =&gt; [0 =&gt; [...], 1 =&gt; [...], 2 =&gt; [...]], &#39;data4&#39; =&gt; []]</span> )</td><td title='C:\wamp64\www\mvc\controllers\urunler.php' bgcolor='#eeeeec'>...\urunler.php<b>:</b>31</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.0215</td><td bgcolor='#eeeeec' align='right'>498144</td><td bgcolor='#eeeeec'>require( <font color='#00bb00'>'C:\wamp64\www\mvc\views\sayfalar\urundetay.php</font> )</td><td title='C:\wamp64\www\mvc\libs\view.php' bgcolor='#eeeeec'>...\view.php<b>:</b>10</td></tr>
+</table></font>
+</p>
+			  </div>
+			  <div role="tabpanel" class="tab-pane fade" id="yorum" aria-labelledby="dropdown1-tab">
+              
+              <div class="alert alert-danger text-center">Yorum yapabilmek için giriş yapmanız gerekmektedir.</div><div class="alert alert-danger text-center">Bu ürüne ait yorum bulunmamaktadır.</div>              
+				
+                 
+                
+                
+                
+			  </div>
+			  
+			</div>
+		   </div>
+      
+      
+      	
+	</div>
+
+			</div>
+			<div class="clearfix"></div>
+			</div>
+   </div>
+   
+   
+   
+   
+   
+   <div class="other-products products-grid">
+		<div class="container">
+			<header>
+				<h3 class="like text-center">BENZER ÜRÜNLER</h3>   
+			</header>
+            
+                       <div class="col-md-4 product simpleCart_shelfItem text-center">
+<a href="http://localhost/mvc/urunler/detay/46/yeni-dogan">
+
+<img src="http://localhost/mvc/views/design/images/127.png" alt="Yeni Doğan" /></a>
+
+						<div class="mask">
+							<a href="http://localhost/mvc/urunler/detay/46/yeni-dogan">İNCELE</a>
+							
+						</div>
+						
+						<a class="product_name" href="http://localhost/mvc/urunler/detay/46/yeni-dogan">Yeni Doğan</a>
+						<p><a class="item_add" href="http://localhost/mvc/urunler/detay/46/yeni-dogan"><i></i> <span class="item_price">140.00</span></a></p>
+					</div><div class="col-md-4 product simpleCart_shelfItem text-center">
+<a href="http://localhost/mvc/urunler/detay/47/pamuklu">
+
+<img src="http://localhost/mvc/views/design/images/130.png" alt="Pamuklu" /></a>
+
+						<div class="mask">
+							<a href="http://localhost/mvc/urunler/detay/47/pamuklu">İNCELE</a>
+							
+						</div>
+						
+						<a class="product_name" href="http://localhost/mvc/urunler/detay/47/pamuklu">Pamuklu</a>
+						<p><a class="item_add" href="http://localhost/mvc/urunler/detay/47/pamuklu"><i></i> <span class="item_price">90.00</span></a></p>
+					</div><div class="col-md-4 product simpleCart_shelfItem text-center">
+<a href="http://localhost/mvc/urunler/detay/112/pamuklu">
+
+<img src="http://localhost/mvc/views/design/images/130.png" alt="Pamuklu" /></a>
+
+						<div class="mask">
+							<a href="http://localhost/mvc/urunler/detay/112/pamuklu">İNCELE</a>
+							
+						</div>
+						
+						<a class="product_name" href="http://localhost/mvc/urunler/detay/112/pamuklu">Pamuklu</a>
+						<p><a class="item_add" href="http://localhost/mvc/urunler/detay/112/pamuklu"><i></i> <span class="item_price">90.00</span></a></p>
+					</div>            
+            			
+				
+        
+                    
+                    
+                    
+					<div class="clearfix"></div>
+				   </div>
+				   </div>
+   <!-- content-section-ends -->
+		<div class="news-letter">
+			<div class="container">
+           
+            
+    		      
+      <div class="row">
+    
+     <div class="col-md-12" id="Bulten">
+        	<div class="join">
+					<h6>BÜLTENE KAYIT</h6>
+					<div class="sub-left-right">
+    <form id='bultenForm' > 
+							<input type="text" value="Mail Adresinizi Yazınız" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mail Adresinizi Yazınız';}"  name="mailadres"/>
+                            
+<input type='button' value='KAYIT OL' id='bultenBtn' >                     
+						
+	</form>  				
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+                
+                 </div>
+                 
+                  </div>
+    
+                    
+                
+                
+			</div>
+		</div>
+
+  
+<!-- The modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+<h4 class="modal-title" id="modalLabel">Teslimat adresi ve kişisel bilgiler</h4>
+</div>
+<div class="modal-body">
+Modal content...
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+  
+        
+        
+        <div class="footer">
+		<div class="container">
+		 <div class="footer_top">
+			<div class="span_of_4">
+				<div class="col-md-3 span1_of_4">
+                
+           
+
+                               
+					<h4>En Çok Satanlar</h4>
+					<ul class="f_nav">
+                    
+                         <li><a href="http://localhost/mvc/urunler/detay/1/beyaz-tisort">Beyaz Tişört</a></li><li><a href="http://localhost/mvc/urunler/detay/5/keten-ceket">Keten Ceket</a></li><li><a href="http://localhost/mvc/urunler/detay/4/kot-pantolon">Kot Pantolon</a></li><li><a href="http://localhost/mvc/urunler/detay/3/kumas-pantolon">Kumaş Pantolon</a></li><li><a href="http://localhost/mvc/urunler/detay/2/sari-tisort">Sarı Tişört</a></li><li><a href="http://localhost/mvc/urunler/detay/6/kumas-ceket">Kumaş Ceket</a></li><li><a href="http://localhost/mvc/urunler/detay/7/siyah-tisort">Siyah Tişört</a></li><li><a href="http://localhost/mvc/urunler/detay/8/beyaz-tisort">Beyaz Tişört</a></li>                    
+                    
+								
+					</ul>	
+				</div>
+				<div class="col-md-3 span1_of_4">
+					<h4>Yardım</h4>
+					<ul class="f_nav">
+<li><a href="http://localhost/mvc/sayfalar/kargonezamangelir">Kargo ne zaman gelir</a></li>
+<li><a href="http://localhost/mvc/sayfalar/iadehakki">İade hakkı</a></li>
+<li><a href="http://localhost/mvc/sayfalar/musterihizmetleri">Müşteri hizmetleri</a></li>
+<li><a href="http://localhost/mvc/sayfalar/gizlilikpolitikasi">Gizlilik politikası</a></li>
+<li><a href="http://localhost/mvc/sayfalar/satissozlesmesi">Satış sözleşmesi</a></li>
+<li><a href="http://localhost/mvc/sayfalar/iletisim">Bize Ulaşın</a></li>
+					</ul>	
+				</div>
+				<div class="col-md-3 span1_of_4">
+					<h4>Stoğu Azalanlar</h4>
+					<ul class="f_nav">
+                    
+                                         <li><a href="http://localhost/mvc/urunler/detay/4/kot-pantolon">Kot Pantolon</a></li><li><a href="http://localhost/mvc/urunler/detay/3/kumas-pantolon">Kumaş Pantolon</a></li><li><a href="http://localhost/mvc/urunler/detay/11/yazlik-gomlek">Yazlık Gömlek</a></li><li><a href="http://localhost/mvc/urunler/detay/2/sari-tisort">Sarı Tişört</a></li><li><a href="http://localhost/mvc/urunler/detay/23/y-model">Y MODEL</a></li><li><a href="http://localhost/mvc/urunler/detay/21/camasir-1">Çamaşır-1</a></li><li><a href="http://localhost/mvc/urunler/detay/19/adidas-mavi">Adidas-Mavi</a></li><li><a href="http://localhost/mvc/urunler/detay/24/timsah-derisi">Timsah Derisi</a></li>  
+                    
+                    
+            
+					</ul>					
+				</div>
+				<div class="col-md-3 span1_of_4">
+					<h4>Rastgele Kategoriler</h4>
+					<ul class="f_nav">
+                    
+                    
+                      <li><a href="http://localhost/mvc/urunler/kategori/17/deri-kordon">Deri Kordon</a></li><li><a href="http://localhost/mvc/urunler/kategori/4/gomlek">Gömlek</a></li><li><a href="http://localhost/mvc/urunler/kategori/13/deri">Deri</a></li><li><a href="http://localhost/mvc/urunler/kategori/24/zibin">Zıbın</a></li><li><a href="http://localhost/mvc/urunler/kategori/25/tisort">Tişört</a></li><li><a href="http://localhost/mvc/urunler/kategori/2/pantolon">Pantolon</a></li><li><a href="http://localhost/mvc/urunler/kategori/23/tren">Tren</a></li><li><a href="http://localhost/mvc/urunler/kategori/11/camasir">Çamaşır</a></li>  
+                    
+				
+					</ul>			
+				</div>
+				<div class="clearfix"></div>
+				</div>
+		  </div>
+		  <div class="cards text-center">
+				<img src="images/cards.jpg" alt="" />
+		  </div>
+		  <div class="copyright text-center">
+				<p>© 2022 Eshop. All Rights Reserved | Design by   <a href="http://w3layouts.com">  W3layouts</a><br />OLCAY KALYONCUOĞLU - UDEMY</p>
+		  </div>
+		</div>
+		</div>
+</body>
+</html>
+

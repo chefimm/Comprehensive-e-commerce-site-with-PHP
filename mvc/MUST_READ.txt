@@ -1,0 +1,26 @@
+---- IF YOU ARE GOING TO RUN IT ON LOCALHOST
+-------------------------------------------------- -------
+* Copy the mvc folder in the file you downloaded and paste it into the root directory of your localhost.
+* Your link structure will be as follows. http://localhost/mvc/
+* Create an empty database.
+* Import the database by importing the mvc.sql file in the file you downloaded.
+* Open the database.php file in the config folder and enter your database information.
+* Open general.php in the config folder and take a look. You don't need to change the link paths, it is already set to work on localhost.
+* If you are going to run it in a different folder on localhost or directly in the root directory, you need to edit the links here. The system gets all the link paths from here. If you do not make the links correctly, you will get errors in the system.
+* Open the Bizim.js file in views\design\js\. If you are going to install the system as described above, you do not need to take any action here. If you are going to install it in a different folder or root directory, you need to change all the urls there. This file performs jquery operations in the interface and management panel of the system.
+* You can access the administration panel by typing http://localhost/mvc/panel.
+* Administration Panel Login information, Username: admin Password: 102030
+* Member login information, Username: olcay Password: 102030
+
+---- IF YOU ARE GOING TO RUN IT ON THE SERVER
+-------------------------------------------------- -------
+* Copy the files in the mvc folder in the file you downloaded and paste them into the root directory of your server.
+* Create an empty database.
+* Import the database by importing the mvc.sql file in the file you downloaded.
+* Open the database.php file in the config folder and enter your database information.
+* Open general.php in the config folder and edit all the link paths there according to your needs. The system gets all the link paths from here. If you do not make the links correctly, you will get errors in the system.
+* Open the Bizim.js file in views\design\js\. You need to change all the URLs here according to your own domain. This file performs jquery operations in the interface and management panel of the system. If you don't provide the links correctly, jquery will not work correctly.
+* You can access the administration panel by typing http://yourdomain/panel.
+* Administration Panel Login information, Username: admin Password: 102030
+* Member login information, Username: Member Password: 102030
+-------------------------------------------------- ---------------------------

@@ -1,0 +1,30 @@
+---- LOCALHOSTTA ÇALIŞTIRACAKSANIZ
+---------------------------------------------------------
+* İndirdiğiniz dosyada bulunan mvc klasörünü kopyalayıp, localhost'unuzun kök dizinine yapıştırınız.
+* Link yapınız şöyle olacaktır. http://localhost/mvc/
+* Boş bir veritabanı oluşturunuz.
+* indirdiğiniz dosyada bulunan mvc.sql dosyasını içeri aktar yaparak veritabanını içeri aktarınız.
+* config klasörünün içerisindeki database.php dosyasını açarak veritabanı bilgilerinizi giriniz.
+* config klasörünün içerisindeki genel.php'yi açınız ve göz atınız. Link yollarını değiştirmenize gerek yok, zaten localhostta çalışacak şekilde ayarlanmıştır.
+* Localhostta farklı klasörde veya direkt kök dizininde çalıştıracaksanız, burada bulunan linkleri düzenlemeniz gerekir. Sistem tüm link yollarını buradan almaktadır, eğer linkleri doğru yapmazsanız sistemde hatalar alırsınız.
+* views\design\js\ içerisinde ki bizim.js dosyasını açınız. Eğer ki sistemi yukarıda anlatıldığı gibi kuracaksanız burada herhangi bir işlem yapmanıza gerek yok. Farklı bir klasöre veya kök dizinine kuracaksanız, buradaki tüm url'leri değiştirmeniz gerekir. Bu dosya sistemin arayüz ve yönetim panelinde ki jquery işlemlerini yapmaktadır.
+* Yönetim paneline http://localhost/mvc/panel yazarak erişebilirsiniz.
+* Yönetim Paneli Giriş bilgileri, Kullanıcı adı: admin Şifre: 102030
+* Üye giriş bilgileri, Kullanıcı adı: olcay Şifre: 102030
+
+---- SUNUCUDA ÇALIŞTIRACAKSANIZ
+---------------------------------------------------------
+* İndirdiğiniz dosyada bulunan mvc klasörünün içindeki dosyaları kopyalayıp, sunucunuzun kök dizinine yapıştırınız.
+* Boş bir veritabanı oluşturunuz.
+* indirdiğiniz dosyada bulunan mvc.sql dosyasını içeri aktar yaparak veritabanını içeri aktarınız.
+* config klasörünün içerisindeki database.php dosyasını açarak veritabanı bilgilerinizi giriniz.
+* config klasörünün içerisindeki genel.php'yi açınız ve buradaki tüm link yollarını kendinize göre düzenleyiniz. Sistem tüm link yollarını buradan almaktadır, eğer linkleri doğru yapmazsanız sistemde hatalar alırsınız.
+* views\design\js\ içerisinde ki bizim.js dosyasını açınız. Buradaki tüm url'leri kendi domaininize göre değiştirmeniz gerekir. Bu dosya sistemin arayüz ve yönetim panelinde ki jquery işlemlerini yapmaktadır. Linkleri doğru vermezseniz, jquery doğru çalışmaz.
+* Yönetim paneline http://domaininiz/panel yazarak erişebilirsiniz.
+* Yönetim Paneli Giriş bilgileri, Kullanıcı adı: admin Şifre: 102030
+* Üye giriş bilgileri, Kullanıcı adı: Uye Şifre: 102030
+-----------------------------------------------------------------------------
+---- KULLANILAN TEKNOLOJİLER 
+
+------------------------------------------------------------
+* 
